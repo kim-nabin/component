@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.checkbox {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-square {
+  width: 20px;
+  height: 20px;
+
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+.checkbox-square:hover {
+  outline: 1px solid;
+}
+
+.checkbox-square-clicked {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+
+  border-radius: 5px;
+  border: 2px solid black;
+  background-color: black;
+  color: white;
+}
+
+.checkbox-text {
+  font-family: "Pretendard-Regular";
+  font-size: 22px;
+  margin: 10px;
+}

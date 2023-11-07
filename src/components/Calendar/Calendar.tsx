@@ -4,7 +4,7 @@ import "./Calendar.css";
 
 const daysOfWeek = ["일", "월", "화", "수", "목", "금", "토"];
 
-const Calendar: React.FC = () => {
+export default function Calendar() {
   const [date, setDate] = useState(new Date());
   const [selectedDate, setSelectedDate] = useState(""); // "YYYY-MM-DD" 형식의 문자열
   const [calendarVisible, setCalendarVisible] = useState(false); // 캘린더 표시 여부
@@ -130,6 +130,4 @@ const Calendar: React.FC = () => {
       )}
     </div>
   );
-};
-
-export default Calendar;
+}
