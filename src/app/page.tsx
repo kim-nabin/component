@@ -11,7 +11,7 @@ type Props = {};
 export default function MainPage({}: Props) {
   return (
     <main className="MainPage">
-      <Calendar />
+      <CheckBox text="체크" />
       {/* <Calendar />
       <Radiobox text="라디오" />
       <Alert title="ALERT 제목입니다" text="ALERT 본문입니다" />

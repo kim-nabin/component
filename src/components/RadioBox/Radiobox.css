@@ -16,8 +16,9 @@
 .radiobox-square {
   width: 20px;
   height: 20px;
-  border-radius: 50%; /* 이 부분을 변경해서 동그라미로 만듭니다. */
+  border-radius: 50%;
   border: 2px solid black;
+  background-color: white;
 }
 
 .radiobox-square:hover {
@@ -29,7 +30,7 @@
   height: 20px;
   text-align: center;
   line-height: 20px;
-  border-radius: 50%; /* 클릭 시 동그라미로 유지 */
+  border-radius: 50%;
   border: 2px solid black;
   background-color: black;
   color: white;
